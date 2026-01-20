@@ -1,0 +1,251 @@
+body{
+    background-color: rgb(243, 237, 235);
+    color: rgb(72, 37, 37);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:30px;
+}
+h1{
+    color: rgb(72, 37, 37);
+    font-size: 3em;
+    text-align: center;
+    word-spacing: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+H2{
+    text-align: center;
+}
+#mate{
+    color: rgb(184, 49, 49);
+    text-decoration: underline;
+    font-size: 2em;
+}
+#MATEMATICAS{
+    background-color: rgb(231, 199, 199);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius:15px;
+    padding: 30px;
+    margin-bottom: 20px;
+    padding-top: 3px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    gap: 10px;
+}
+
+#mate0{
+    color: rgb(184, 49, 49);
+    font-size: 1.5em;
+    margin-left:30px;
+    margin-top:70px;
+}
+#MATEMATICAS img {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#lengua{
+    color: rgb(43, 62, 152);
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+#LENGUAcuadro{
+    background-color:rgb(206, 221, 228);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius:15px;
+    padding: 30px;
+    margin-bottom: 20px;
+    padding-top: 3px;
+}
+
+.indice{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    gap: 10px;
+    flex: 1;
+  
+}
+
+.textoindice{
+    font-size: smaller;
+    font-weight: normal;
+}
+
+.imagenlengua img {
+    display:block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#lengua0{
+    color: rgb(43, 62, 152);
+    font-size: 1.5em;
+    margin-left:30px;
+    margin-top:70px;
+}
+
+#historia{
+    color: rgb(99, 38, 150);
+    text-decoration: underline;
+    font-size: 2em;
+}
+#HISTORIA {
+    background-color: rgb(208, 191, 225);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 20px;
+    padding-top: 3px;
+}
+
+.indice {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.textohistoria {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.imagenhistoria img {
+    display:block;
+    border-radius: 10px;
+}
+
+#historia0{
+    color: rgb(99, 38, 150);
+    font-size: 1.5em;
+    margin-left:30px;
+    margin-top:70px;
+}
+
+#filosofia{
+    color: rgb(206, 142, 52);
+    text-decoration: underline;
+    font-size: 2em;
+}
+#FILOSOFIA{
+    background-color:bisque;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius:15px;
+    padding: 30px;
+    margin-bottom: 20px;
+    padding-top: 3px;
+}
+.contenedor-filosofia{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 40px;
+}
+
+.imagen-filosofia img{
+    display: block;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+#filosofia0{
+    color: rgb(206, 142, 52);
+    font-size: 1.5em;
+    margin-left:30px;
+    margin-top:70px;
+}
+#p1{
+    text-align:center;
+    color: rgb(72, 37, 37);
+    text-decoration: underline;
+}
+
+#inicio{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(151, 151, 151);
+}
+
+#ma1{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(214, 158, 158);
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#le1{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(206, 221, 228);
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+#hi1{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(208, 191, 225);
+    margin-top: 10px;
+    margin-left: 360px;
+}
+
+#fi1{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 570px;
+}
+#widget-reloj{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 196, 250);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.widget-historia{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(208, 191, 225);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#widget-mates{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(231, 199, 199);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#widget-filo{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: bisque;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#widget-lengua{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(206, 221, 228);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>Contacto</title>
+    <style type="text/css">
+    </style>
+    <link rel="stylesheet" href="cssformulario.css" >
+  </head>
+
+  <body>
+    <header>
+      <p ID="p1"> <B>MATERIAS 2ºBACHILLERATO</B>
+          Resúmenes, ejercicios y exámenes.</p>
+      <h1>ASIGNATURAS 2º BACHILLERATO</h1>
+      <h2>INICIO</h2>
+      <NAV>
+          <UL>
+            <a href="index.html" ID="inicio">INICIO</a>
+            <BR><A HREF="MATE.html" ID="ma1">MATEMÁTICAS</A>
+            <br><A HREF="LENGUA.html" ID="le1">LENGUA</A>
+            <br><A HREF="HISTORIA.HTML" ID="hi1">HISTORIA DE ESPAÑA</A>
+            <br><A HREF="FILOSOFIA.HTML" ID="fi1">HISTORIA DE LA FILOSOFÍA</A>
+            <br><A HREF="#FORMULARIO" ID="form1"></A>
+            <link>
+            <a href="formulario.html">DUDAS Y PREGUNTAS</a>
+            <br><BR><A HREF="#VIDEO"></A>
+                <link>
+                <a href="video.html" ID="vid1">VÍDEO</a>
+          </UL>
+      </NAV>
+  </header>
+
+<form id="formulario" action="enviar.php method="post">
+
+    <fieldset>
+      <legend>Datos personales</legend>
+  
+      Nombre:
+      <input type="text"
+      name="nombre"
+      span class="rojo">
+      Correo electrónico:
+      <input type="email"
+      name="mail"
+      size="28"
+      required
+      autocomplete
+      placeholder="nombre@servidor.com"
+      title="Escriba su correo electrónico para 
+      poder comunicarnos con Ud.lo antes posible"/>
+      <br>
+    </fieldset>
+  
+    <fieldset>
+       <legend>DUDAS Y PREGUNTAS</legend>
+  
+       Escribe aquí tu pregunta :)<br>
+       <br><textarea name="descripcion"></textarea><p>
+  
+       ¿Es urgente?:<br>
+       <input type="radio"
+       name="proceso"
+       value="sinplantear"
+       checked/>
+       Muy urgente
+  
+       <input type="radio"
+       name="proceso"
+       value="enplanificacion"/>
+       Un poco urgente
+  
+       <input type="radio"
+       name="proceso"
+       value="enejecucion"/>
+       Tienes tiempo
+  
+       <input type="radio"
+       name="proceso"
+       value="finalizado"/>
+       Puede esperar<p>
+  
+    </fieldset>
+      
+       <input id="boton_enviar"
+       type="submit"
+       value="Enviar">
+  
+  </form>
+
+   </section>
+
+   <div id="franja_final"></div>
+   <footer>
+ 	       &copy;2025 Sara Herrero Manzano. TIC II.<br>
+ 	       
+   </footer>
+ </body>
+</html>
